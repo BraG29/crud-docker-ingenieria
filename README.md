@@ -14,7 +14,7 @@ Docker levanta 3 contenedores:
 * Uno para la imagen de la base de datos
 * Uno para la imagen del Adminer
 
-El archivo ![Dockerfile](Dockerfile), el cual construye la imagen de la app, tambien utiliza imagenes de 
+El archivo [Docker](Dockerfile), el cual construye la imagen de la app, tambien utiliza imagenes de 
 Maven y OpenJDK para construir y ejecutar la aplicacion respectivamente dentro del contenedor:
 ```yaml
 FROM maven:3.9.4 AS build
